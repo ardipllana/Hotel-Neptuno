@@ -1,0 +1,62 @@
+@font-face {
+    font-family: ProximaNova;
+    src: url('../assets/fonts/ProximaNova-Regular.woff2');
+}
+
+@font-face {
+    font-family: AbrilText;
+    src: url('../assets/fonts/abril-regular.woff2');
+}
+
+@font-face {
+    font-family: AbrilTextsemiBold;
+    src: url('../assets/fonts/Vonique.ttf');
+}
+
+@font-face {
+    font-family: Shorelines;
+    src: url('../assets/fonts/DancingScript.ttf');
+}
+
+.section1{
+    display: flex;
+    height: 400px;
+    padding-top: 20px;
+
+}
+.section2 {
+    background-image: linear-gradient(rgba(216, 209, 189, 0.8), rgba(108, 136, 119, 0)), url('../assets/images/food3.jpg');
+    background-size: cover;
+    height: 380px;
+
+}
+.section3 {
+    background-image: linear-gradient(rgba(216, 209, 189, 0.8), rgba(108, 136, 119, 0)), url('../assets/images/spa3.jpg');
+    background-size: cover;
+    height: 380px;
+
+}
+.section4 {
+    background-image: linear-gradient(rgba(216, 209, 189, 0.8), rgba(108, 136, 119, 0)), url('../assets/images/team2.jpg');
+    background-size: cover;
+    height: 380px;
+
+}
+.text2{
+    width: 95%;
+}
+.text-aboutus{
+
+
+    font-family: ProximaNova, serif;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: -0.4px;
+    color: #595959;
+}
+@media only screen and (max-width: 992px) {
+    .section1{
+       height: 100% !important;
+    }
+
+}

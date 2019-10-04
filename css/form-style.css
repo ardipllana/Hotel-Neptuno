@@ -1,0 +1,119 @@
+body{
+    color: #7b6e65;
+}
+.form-section{
+    height: 100%;
+    display: block;
+    padding-left: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fdede1;
+}
+span {
+
+    font-family: ProximaNova, serif;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: -0.4px;
+    color: #595959;
+    font-weight: 800;
+}
+
+
+.user-input {
+
+    width: 180px;
+    height: 20px;
+    border: 2px solid grey;
+
+}
+.date-input {
+    width: 180px;
+    border: 2px solid grey;
+}
+select{
+
+    border: 2px solid grey;
+}
+.btn{
+    background-color:#7b6e65 ;
+   margin-top: 15px;
+}
+
+
+input[type=password],input[type=text], input[type=date],  input[type=email],select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: "Century Gothic";
+    background-color: #9e999538;
+
+}
+
+.reservation span{
+    font-family: "Century Gothic";
+    font-size: 16px;
+    font-weight: 100;
+
+}
+
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-family: "Century Gothic";
+    font-size: 19px;
+    font-weight: 700;
+
+}
+
+input[type=submit] {
+    background-color: #988240;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    width: 150px;
+    font-family: "Century Gothic";
+    font-size: 16px;
+
+}
+
+input[type=submit]:hover {
+    background-color: #634f42;
+}
+
+.reservation {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.form-holder {
+    width: 75%;
+    margin: 40px 0;
+}
+.lace-color-bg {
+    background-color: #fdede1;
+}
+@media screen and (max-width: 600px) {
+    .reservation, .reservation{
+        width: 100%;
+        margin-top: 0;
+    }
+    input[type=submit]{
+        margin-top: 15px;
+        float: left;
+    }
+}

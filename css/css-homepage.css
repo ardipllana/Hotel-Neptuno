@@ -1,0 +1,530 @@
+@font-face {
+    font-family: ProximaNova;
+    src: url('../assets/fonts/ProximaNova-Regular.woff2');
+}
+
+@font-face {
+    font-family: AbrilText;
+    src: url('../assets/fonts/abril-regular.woff2');
+}
+
+@font-face {
+    font-family: AbrilTextsemiBold;
+    src: url('../assets/fonts/Vonique.ttf');
+}
+
+@font-face {
+    font-family: Shorelines;
+    src: url('../assets/fonts/DancingScript.ttf');
+}
+
+html, body {
+    margin: 0 auto;
+    scroll-behavior: smooth;
+
+}
+
+.btn {
+    border: none;
+    width: 180px;
+    height: 45px;
+    background-color: #988240;
+    font-family: ProximaNova, serif;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(rgba(216, 209, 189, 0.8), rgba(108, 136, 119, 0)), url('../assets/images/hotel-backgroung.jpg');
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.d-flex {
+    display: flex;
+    width: 75%;
+}
+
+.logo {
+    height: auto;
+    margin-top: 35px;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+nav ul {
+    margin-top: 60px;
+    list-style: none;
+    overflow: hidden;
+
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+nav ul li a {
+    color: #676561;
+    font-family: ProximaNova, serif;
+    font-size: 26px;
+    letter-spacing: -0.3px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+
+    text-decoration: underline;
+}
+
+.menu-icon {
+    color: #ffff;
+    display: none;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.container .text {
+    padding-top: 30%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title {
+    font-family: AbrilTextsemiBold, serif;
+    font-size: 50px;
+    margin-bottom: 20%;
+    letter-spacing: -0.9px;
+    color: #634f42;
+}
+
+.p1 {
+
+    font-family: ProximaNova, serif;
+    font-size: 25px;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+}
+
+.btn1 {
+    border: none;
+    width: 170px;
+    height: 40px;
+    background-color: #0eb1d2;
+    font-family: ProximaNova, serif;
+    color: #ffffff;
+}
+
+.section1 {
+    display: flex;
+    height: 220px;
+    background-color: #fdede1;
+}
+
+.text2 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.text2 .p3 {
+
+    font-family: ProximaNova, serif;
+    font-size: 14px;
+    line-height: 0;
+    letter-spacing: 4px;
+    color: #d3c9b4;
+}
+
+.text2 .p2 {
+
+    font-family: ProximaNova, serif;
+    font-size: 16px;
+    text-align: center;
+    color: #595959;
+}
+
+.text2 h2 {
+
+    font-family: AbrilTextsemiBold, serif;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: -0.6px;
+    text-align: center;
+    color: #202121;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    background-color: #fdede1;
+}
+
+.boxes .box {
+    text-align: center;
+    flex-direction: column;
+    height: 100%;
+    width: 33.3%;
+}
+
+.boxes-items {
+    align-items: center;
+}
+
+.box-width {
+    width: 70%;
+    min-height: 400px;
+    text-align: center;
+}
+
+.box img {
+    height: 25%;
+}
+
+.box p {
+    font-family: ProximaNova, serif;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: -0.4px;
+    color: #595959;
+}
+
+.box h2 {
+
+    font-family: AbrilText, serif;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.4px;
+    text-align: center;
+    color: #403b38;
+}
+
+.buton {
+
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    background-color: #fdede1;
+}
+
+.section2 {
+    background-image: linear-gradient(rgba(216, 209, 189, 0.8), rgba(108, 136, 119, 0)), url('../assets/images/room2.jpg');
+    background-size: cover;
+    height: 380px;
+
+}
+
+.text3 {
+    display: flex;
+    flex-direction: column;
+    line-height: 0.5%;
+    width: 80%;
+}
+
+.text3 .comma {
+    text-align: center;
+    font-size: 200px;
+    color: #988240;
+    transform: rotate(180deg);
+}
+
+.text3 p {
+    margin-top: -140px;
+    text-align: center;
+    font-family: Shorelines, serif;
+    font-size: 40px;
+    line-height: initial;
+    color: #403b38;
+    font-weight: bold;
+}
+
+.section3 {
+    background-image: linear-gradient(rgba(216, 209, 189, 0.8), rgba(108, 136, 119, 0)), url('../assets/images/kitchen.jpg');
+    display: flex;
+    height: 380px;
+}
+
+.box-tab {
+    display: flex;
+}
+
+.text4 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text4 .t3p1 {
+    padding-top: 20%;
+    font-family: ProximaNova, serif;
+    font-size: 14px;
+    letter-spacing: 4px;
+    color: #d3c9b4;
+    text-align: center;
+}
+
+.text4 .t3p2 {
+    font-family: Shorelines, serif;
+    font-size: 40px;
+    letter-spacing: -0.6px;
+    text-align: center;
+    color: #202121;
+}
+
+.text4 .mobile {
+    display: none;
+}
+
+.text4 .t3p {
+    margin-top: -15px;
+    font-family: ProximaNova, serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #595959;
+    text-align: center;
+    width: 80%;
+    padding-left: 10%;
+}
+
+.boxes .box .bh2 {
+    font-family: AbrilTextsemiBold, serif;
+    font-size: 48px;
+    text-align: center;
+    color: #17314c;
+}
+
+.boxes .box .bp {
+    margin-top: -20px;
+    font-family: ProximaNova, serif;
+    font-size: 24px;
+    color: #595959;
+    text-align: -webkit-center;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    background-color: #7b6e65;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap-reverse;
+    justify-content: left;
+}
+
+.footer-copyright {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.footer-socials {
+    min-width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-icon {
+    max-width: 28px;
+    max-height: 28px;
+    padding: 2px;
+}
+
+footer .media-link {
+    display: none;
+}
+
+@media only screen and (max-width: 992px) {
+    .wrapper {
+        height: 100%;
+        background-position: top;
+
+    }
+
+    .d-flex {
+        width: 100%;
+        margin: 0;
+    }
+
+    .logo {
+        margin-top: 4%;
+        position: fixed;
+        padding-left: 9%;
+        height: auto;
+    }
+
+    .navbar {
+        background: #fdede1;
+        z-index: 2;
+    }
+
+    nav {
+        overflow: hidden;
+        position: fixed;
+        box-sizing: border-box;
+    }
+
+    nav ul {
+        max-height: 0;
+        cursor: pointer;
+
+    }
+
+    .showing {
+        max-height: 100%;
+        height: 100vh;
+        margin-top: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: #fdede1;
+    }
+
+    nav ul li {
+        box-sizing: border-box;
+        text-align: center;
+        height: 15%;
+        font-size: 20px;
+
+    }
+
+    nav ul li a {
+        font-size: 26px;
+        font-weight: 800;
+    }
+
+    .menu {
+        margin-right: 19%;
+    }
+
+    .menu-icon {
+        padding-top: 5%;
+        padding-right: 5%;
+        display: block;
+        height: 100%;
+        width: auto;
+    }
+
+    .white {
+        background-color: #ffffff;
+
+    }
+
+    .container .p2 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .text .p1 {
+        padding-bottom: 15%;
+    }
+
+    .section1 {
+        padding-top: 20%;
+    }
+
+    .boxes {
+        height: 100%;
+    }
+
+    .boxes .box {
+        width: 100%;
+        padding-top: 10%;
+    }
+
+    .boxes .box .bh2 {
+        margin-left: 0;
+    }
+
+    .box p {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .buton {
+        padding-bottom: 20%;
+    }
+
+    .buton .btn {
+        margin-top: 20%;
+        margin-bottom: 20%;
+        width: 90%;
+    }
+
+    .text4 .t3p {
+        display: none;
+    }
+
+    .text4 .mobile {
+        display: inline;
+        font-family: ProximaNova, serif;
+        font-size: 16px;
+        text-align: center;
+        color: #595959;
+        width: 70%;
+        margin-top: -5%;
+        padding-left: 15%;
+    }
+
+    .banner-image {
+        height: 100%;
+    }
+
+    .text a .btn {
+        width: 90%;
+        padding-top: 5%;
+        padding-bottom: 10%;
+        margin-top: 20%;
+        margin-bottom: 5%;
+    }
+
+    .hotel-logo {
+        max-width: 100px;
+    }
+
+    footer {
+        padding-left: 5%;
+    }
+
+    footer .media-link {
+        display: inline-block;
+
+    }
+
+    footer .media-link a {
+        margin-top: 20px;
+        font-family: ProximaNova, serif;
+        font-size: 14px;
+        letter-spacing: -0.3px;
+        color: rgba(255, 255, 255, 0.5);
+        text-decoration: none;
+    }
+}
